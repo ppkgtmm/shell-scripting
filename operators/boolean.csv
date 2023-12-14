@@ -1,0 +1,4 @@
+operation,syntax,meaning
+and,condition1 -a condition2,condition 1 and condition2
+or,condition1 -o condition2,condition 1 or condition2
+not,! condition,opposite of condition
