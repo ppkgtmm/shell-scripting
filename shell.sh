@@ -1,4 +1,4 @@
-# ! /bin/sh # use Bourne shell to execute script
+#! /bin/sh
 
 # variable definition
 greeting="Hello"
