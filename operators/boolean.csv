@@ -1,4 +1,4 @@
 syntax,meaning
-[[ condition1 && condition2 ]],condition 1 and condition2
-[[ condition1 || condition2 ]],condition 1 or condition2
-[[ ! condition ]],opposite of condition
+[ condition1 -a condition2 ],condition 1 and condition2
+[ condition1 -o condition2 ],condition 1 or condition2
+! [ condition ],opposite of condition
