@@ -1,7 +1,8 @@
-#! /bin/sh
+# ! /bin/sh # use Bourne shell to execute script
 
-# variable example
+# variable definition
 greeting="Hello"
 name="Linux"
-echo $greeting $name
 
+# variable reference
+echo $greeting $name
