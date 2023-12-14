@@ -22,9 +22,11 @@ then
     echo 'and matched'
 elif [[ $cond1 == true || $cond2 == true ]]
 then
-    echo 'or matched'
+    echo 'or matched' # if condition not matched
 else
+    # no outer conditions matched
     if [[ !$cond2 ]]
     then echo 'cond2 false'
+    # do nothing when condition not matched
     fi
 fi
