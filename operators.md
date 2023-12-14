@@ -1,0 +1,8 @@
+| syntax   | meaning      |
+| :------- | :----------- |
+| a + b    | a plus b     |
+| a - b    | a minus b    |
+| a \* b   | a times b    |
+| a / b    | a over b     |
+| a \*\* b | a exponent b |
+| a % b    | a modulo b   |
