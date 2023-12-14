@@ -30,3 +30,9 @@ else
     # do nothing when condition not matched
     fi
 fi
+
+# for loop with strings
+for fruit in apple banana "dragon fruit"
+do
+	echo $fruit
+done
