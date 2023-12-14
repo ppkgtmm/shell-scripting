@@ -38,7 +38,7 @@ do
 done
 
 # for loop with numbers
-for i in {1..5} # generate numbers from 1 to 5
+for i in {1..5} # generate list of numbers from 1 to 5
 do
     if [[ $(($i % 4)) != 0 ]]
     then 
