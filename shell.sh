@@ -14,3 +14,17 @@ echo "scale=2;18.22/4" | bc # truncate decimal to 2 places
 # get input from console and store in person_name variable
 read -p "Enter your name" person_name
 echo "Hello $person_name"
+
+cond1=false
+cond2=false
+if [[ $cond1 == true && $cond2 == true ]]
+then
+    echo 'and matched'
+elif [[ $cond1 == true || $cond2 == true ]]
+then
+    echo 'or matched'
+else
+    if [[ !$cond2 ]]
+    then echo 'cond2 false'
+    fi
+fi
