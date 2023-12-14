@@ -1,7 +1,7 @@
-operation,syntax,meaning
-=,a -eq b,a equal to b
->=,a -ge b,a greater than equal to b
->,a -gt  b,a greater than b
-<=,a -le  b,a less than equal to b
-<,a -lt   b,a less than b
-!=,a -ne b,a not equal to b
+syntax,meaning
+[[ a == b ]],a equal to b
+[[ a >= b ]],a greater than equal to b
+[[ a > b ]],a greater than b
+[[ a <= b ]],a less than equal to b
+[[ a < b ]],a less than b
+[[ a != b ]],a not equal to b
