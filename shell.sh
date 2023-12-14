@@ -17,17 +17,18 @@ echo "Hello $person_name"
 
 cond1=false
 cond2=false
-if [[ $cond1 == true && $cond2 == true ]]
+if [ "$cond1" == true -a "$cond2" == true ]
 then
     echo 'and matched'
-elif [[ $cond1 == true || $cond2 == true ]]
+elif [ "$cond1" == true -o "$cond2" == true ]
 then
     echo 'or matched' # if condition not matched
 else
     # no outer conditions matched
-    if [[ !$cond2 ]]
-    then echo 'cond2 false'
-    # do nothing when condition not matched
+    if ! [ "$cond2" == true ]
+    then 
+        echo 'cond2 false'
+        # do nothing when condition not matched
     fi
 fi
 
