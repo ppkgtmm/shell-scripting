@@ -6,7 +6,7 @@ then
 fi
 
 # check for awesome substring
-if echo "It's awesome" | grep -q "awesome" 
+if echo "It's awesome" | grep -q "awesome"
 then
     echo "contains awesome"
 fi
