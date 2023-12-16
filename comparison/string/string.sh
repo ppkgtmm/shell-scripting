@@ -17,7 +17,7 @@ else
   echo "string is not empty"
 fi
 
-if [ -n "$var" ]; then # check if string is not empty
+if [ -n "non-empty-string" ]; then # check if string is not empty
   echo "string is not empty"
 else
   echo "string is empty"
