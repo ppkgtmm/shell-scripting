@@ -1,7 +1,7 @@
 #! /bin/sh
 
 i=1
-while [[ true ]]
+while [[ true == true ]]
 do
     if [[ $i -gt 2 ]]
     then
