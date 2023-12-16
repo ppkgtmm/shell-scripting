@@ -8,17 +8,3 @@ then
 else
     echo "$str1 >= $str2"
 fi
-
-
-if [ -z "" ] # check if string is empty
-then
-  echo "string is empty"
-else
-  echo "string is not empty"
-fi
-
-if [ -n "non-empty-string" ]; then # check if string is not empty
-  echo "string is not empty"
-else
-  echo "string is empty"
-fi
