@@ -1,9 +1,5 @@
 #! /bin/sh
 
-# get input from console and store in person_name variable
-read -p "Enter your name" person_name
-echo "Hello $person_name"
-
 cond1=false
 cond2=false
 if [ "$cond1" == true -a "$cond2" == true ]
