@@ -10,9 +10,7 @@ else
 fi
 
 
-empty="" # define an empty string
-
-if [ -z "$empty" ] # check if string is empty
+if [ -z "" ] # check if string is empty
 then
   echo "string is empty"
 else
