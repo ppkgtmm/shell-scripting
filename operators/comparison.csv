@@ -1,7 +1,0 @@
-syntax,meaning
-[[ a == b ]],a equal to b
-[[ a >= b ]],a greater than equal to b
-[[ a > b ]],a greater than b
-[[ a <= b ]],a less than equal to b
-[[ a < b ]],a less than b
-[[ a != b ]],a not equal to b
