@@ -1,4 +1,4 @@
-#!/bin/sh
+#! /bin/sh
 
 for arg in $@ # $@ = list of script arguments
 do
