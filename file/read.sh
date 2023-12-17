@@ -3,8 +3,8 @@
 line=1
 
 # read file line by line
-cat "file/sample_file.txt" | while read current_line
+while read -r current_line
 do
     echo "line $line: $current_line"
     line=$(($line+ 1))
-done
+done < "file/sample_file.txt"
