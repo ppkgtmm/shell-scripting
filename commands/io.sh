@@ -1,3 +1,5 @@
+# FOR EXAMPLE ONLY
+
 # pipe | passes output as input to another program
 echo "piping the pipe" | grep "pipe"
 
